@@ -1,0 +1,276 @@
+
+Welcome to Mike's DHT
+
+Root node: 1 starting up at port 40001
+
+
+1. Manually input command
+2. See list of command for assistant
+3. Quit
+
+LoopPing Message:
+Hello Everybody
+
+1
+
+Enter a command or quit: status
+
+
+NodeID: 1
+Predecessor NodeID: 1
+Successor NodeID: 470
+
+
+Enter a command or quit: Ping by Node: 564
+Sending ping reply.
+
+Node: 1 added to Mcast Group: 700.
+
+Node: 1 is now a forwarder for Mcast Group: 700.
+
+quit
+
+
+
+1. Manually input command
+2. See list of command for assistant
+3. Quit
+
+2
+
+
+Select an option
+
+1. Status
+2. Ping [ComPort]
+3. LoopPing [Msg]
+4. Survey
+5. File [FileName]
+6. Mcast Create [McastID]
+7. Mcast Add [McastID] [NodeID]
+8. Mcast Send [McastID] [Msg]
+9. Mcast Remove [McastID] [NodeID]
+10. Mcast Destroy [McastID]
+11. Exit command options
+
+
+1
+
+
+NodeID: 1
+Predecessor NodeID: 1
+Successor NodeID: 470
+
+Mcast ID: 0
+Mcast Root: false
+Forwarder: true for Mcast group 700
+
+
+
+
+
+Select an option
+
+1. Status
+2. Ping [ComPort]
+3. LoopPing [Msg]
+4. Survey
+5. File [FileName]
+6. Mcast Create [McastID]
+7. Mcast Add [McastID] [NodeID]
+8. Mcast Send [McastID] [Msg]
+9. Mcast Remove [McastID] [NodeID]
+10. Mcast Destroy [McastID]
+11. Exit command options
+
+
+4
+
+
+Current Node: 1 470 477 564 855
+
+
+
+Select an option
+
+1. Status
+2. Ping [ComPort]
+3. LoopPing [Msg]
+4. Survey
+5. File [FileName]
+6. Mcast Create [McastID]
+7. Mcast Add [McastID] [NodeID]
+8. Mcast Send [McastID] [Msg]
+9. Mcast Remove [McastID] [NodeID]
+10. Mcast Destroy [McastID]
+11. Exit command options
+
+
+
+Welcome to Mike's DHT
+
+Unable to initialize as Root Node.
+
+Node: 470 starting up at port 40470
+
+
+1. Manually input command
+2. See list of command for assistant
+3. Quit
+
+1
+
+Enter a command or quit: ping 40564
+
+
+Pinging port: 40564
+Reply ping: Hi from Node: 564
+
+Enter a command or quit: loOpPinG Hello Everybody
+
+
+LoopPing message send.
+
+LoopPing Message:
+Hello Everybody
+
+Enter a command or quit: Node: 470 is now a forwarder for Mcast Group: 700.
+
+Node: 470 added to Mcast Group: 700.
+
+
+Welcome to Mike's DHT
+
+Unable to initialize as Root Node.
+
+Node: 564 starting up at port 40564
+
+
+1. Manually input command
+2. See list of command for assistant
+3. Quit
+
+Ping by Node: 470
+Sending ping reply.
+
+LoopPing Message:
+Hello Everybody
+
+1
+
+Enter a command or quit: file C:\Extra435\test.txt
+
+
+NodeID: 564
+Predecessor NodeID: 477
+Successor NodeID: 855
+
+
+Pinging port: 40001
+Reply ping: Hi from Node: 1
+
+Mcast Group: 500 create at this node.
+
+Current Node: 564 1 470 477 855
+Enter a command or quit: Node: 564 is now a forwarder for Mcast Group: 700.
+
+quit
+
+
+
+1. Manually input command
+2. See list of command for assistant
+3. Quit
+
+2
+
+
+Select an option
+
+1. Status
+2. Ping [ComPort]
+3. LoopPing [Msg]
+4. Survey
+5. File [FileName]
+6. Mcast Create [McastID]
+7. Mcast Add [McastID] [NodeID]
+8. Mcast Send [McastID] [Msg]
+9. Mcast Remove [McastID] [NodeID]
+10. Mcast Destroy [McastID]
+11. Exit command options
+
+
+7
+
+
+Enter McastID and NodeID: 700 470
+
+
+
+Select an option
+
+1. Status
+2. Ping [ComPort]
+3. LoopPing [Msg]
+4. Survey
+5. File [FileName]
+6. Mcast Create [McastID]
+7. Mcast Add [McastID] [NodeID]
+8. Mcast Send [McastID] [Msg]
+9. Mcast Remove [McastID] [NodeID]
+10. Mcast Destroy [McastID]
+11. Exit command options
+
+
+Welcome to Mike's DHT
+
+Unable to initialize as Root Node.
+
+Node: 855 starting up at port 40855
+
+
+1. Manually input command
+2. See list of command for assistant
+3. Quit
+
+LoopPing Message:
+Hello Everybody
+
+Mcast Group: 700 create at this node.
+
+1
+
+Enter a command or quit: remove 700 1
+
+
+Enter a command or quit: mcast remove 700 1
+
+
+Enter a command or quit:
+
+
+Welcome to Mike's DHT
+
+Unable to initialize as Root Node.
+
+Node: 477 starting up at port 40477
+
+
+1. Manually input command
+2. See list of command for assistant
+3. Quit
+
+LoopPing Message:
+Hello Everybody
+
+1
+
+Enter a command or quit: mcast create 700
+
+
+Enter a command or quit: mcast add 700 1
+
+
+Node: 477 is now a forwarder for Mcast Group: 700.
+
+Enter a command or quit:
